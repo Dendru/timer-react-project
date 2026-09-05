@@ -51,7 +51,7 @@ export default function App() {
       }
       transition={{ duration: 0.55, ease: "easeOut" }}
     >
-      <NeonGrid status={timer.status} />
+      <NeonGrid/>
       <ParallaxTypography />
       <div className="noise-overlay" />
       <ParticleFlash active={flash} />
